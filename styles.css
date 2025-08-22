@@ -1,0 +1,450 @@
+ * {
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+
+      }
+
+      body {
+         font-family: "Lato";
+         color: #333;
+
+      }
+
+      .topic1 {
+         font-family: "Poppins", sans-serif;
+      }
+
+      .topic3 {
+         font-family: "Poppins", sans-serif;
+      }
+
+      header {
+         background-color: #6d28d9f2;
+         color: white;
+         height: 80px;
+         padding-top: 20px;
+         position: sticky;
+         top: 0; 
+
+
+
+      }
+
+      .headerSubContainer {
+         max-width: 1200px;
+         margin: 0px auto;
+         height: 40px;
+         display: flex;
+         justify-content: space-between;
+
+      }
+
+      .correction {
+         max-width: 1200px;
+         width: 90%;
+         margin: 0px auto;
+
+      }
+
+      nav {
+         display: flex;
+         gap: 30px;
+         justify-content: space-evenly;
+         font-size: 18px;
+         align-items: center;
+      }
+
+      .logo {
+         font-size: 28px;
+         font-weight: bold;
+      }
+
+      .firstSectionContent {
+         text-align: center;
+         
+
+
+
+      }
+
+      .firstSection {
+         background-color: #6d28d9f2;
+         padding-bottom: 80px;
+         
+      }
+
+      .topic1 {
+         margin: 0px 0px 30px 0px;
+         font-size: 50px;
+         color: white;
+         padding-top: 60px;
+
+      }
+
+      .topic2 {
+         margin-bottom: 30px;
+         color: white;
+         font-size: 17px;
+      }
+
+      .btn {
+         border: 2px;
+         border-radius: 30px;
+         padding: 25px;
+         font-size: 15px;
+         font-weight: bold;
+         color: #6d28d9;
+      }
+
+      .topic3 {
+         text-align: center;
+         padding: 85px;
+         color: #6d28d9;
+         font-size: 40px;
+         font-weight: bolder;
+
+      }
+
+      .secondSection {
+
+         /* margin: 0px auto; */
+         background-color: ghostwhite;
+         padding-bottom: 40px;
+      }
+
+      .secondSection1 {
+         display: grid;
+         /* grid-template-columns: auto auto auto;
+         align-items: center;
+         gap: 30px; */
+         margin-bottom: 60px;
+         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+         align-items: center;
+         gap: 2rem;
+
+
+
+      }
+
+      .container {
+         background-color: ghostwhite;
+
+      }
+
+      .con1,
+      .con2,
+      .con3,
+      .con4 {
+         border: 2px;
+         background-color: white;
+         border-radius: 17px;
+         text-align: center;
+         padding: 40px;
+         box-shadow: 0 5px 15px rgb(241, 233, 233)
+      }
+
+
+
+      .col {
+         color: #6d28d9;
+         font-size: 26px;
+         font-weight: 750;
+         margin: 100px 0px 10px 0px;
+         padding-bottom: 30px;
+
+
+      }
+
+      .text {
+         font-size: 20px;
+      }
+
+      .thirdSection1 {
+         /* display: grid;
+         grid-template-columns: auto auto auto;
+         gap: 25px;
+         
+       */
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+         align-items: center;
+         gap: 2rem;
+
+
+      }
+
+      .thirdSection {
+         margin-top: 50px;
+         margin-bottom: 60px;
+      }
+
+      .topic4 {
+         text-align: center;
+         padding-top: 30px;
+         color: #6d28d9;
+         font-size: 40px;
+         font-weight: bolder;
+         margin-bottom: 50px;
+      }
+
+      .basic {
+         border: 3px solid #e9e5ef;
+         background-color: #fff;
+         border-radius: 17px;
+         text-align: center;
+         padding: 35px 80px;
+         box-shadow: 3px black;
+         font-size: 18px;
+
+      }
+
+      .basic:hover {
+         border: 3px solid #6d28d9;
+         cursor: pointer;
+         transition: 0.3 ease-out;
+
+      }
+
+      .premium {
+         border: 3px solid #e9e5ef;
+         background-color: #6d28d9;
+         border-radius: 17px;
+         text-align: center;
+         padding: 40px;
+         box-shadow: 3px black;
+         font-size: 18px;
+         color: #fff;
+
+
+      }
+
+      .vip {
+         border: 3px solid #e9e5ef;
+         background-color: #fff;
+         border-radius: 17px;
+         text-align: center;
+         padding: 40px;
+         box-shadow: 3px black;
+         font-size: 18px;
+
+      }
+
+      .vip:hover {
+         border: 3px solid #6d28d9;
+         cursor: pointer;
+         transition: 0.3 ease-out;
+
+      }
+
+      ul li {
+         font-size: 15px;
+         padding: 5px;
+         list-style: none;
+         margin-bottom: 18px;
+
+      }
+
+      .price {
+         padding-bottom: 30px;
+      }
+
+      .btn2 {
+         border: 2px;
+         border-radius: 30px;
+         padding: 15px 25px 15px 25px;
+         font-size: 15px;
+         font-weight: bold;
+         color: white;
+         background-color: #6d28d9;
+
+      }
+
+      .btn3 {
+         border: 2px;
+         border-radius: 30px;
+         padding: 15px 25px 15px 25px;
+         font-size: 15px;
+         font-weight: bold;
+         color: #6d28d9;
+         background-color: white;
+      }
+
+      .topic5 {
+         text-align: center;
+         padding-top: 30px;
+         color: #6d28d9;
+         font-size: 40px;
+         font-weight: bolder;
+         margin-bottom: 20px;
+         padding-top: 80px;
+      }
+
+      .fourthSection {
+
+         /* margin: 0px auto; */
+         background-color: ghostwhite;
+
+         padding-bottom: 40px;
+
+      }
+
+      .content1 {
+         text-align: center;
+         margin-bottom: 20px;
+
+
+      }
+
+      form {
+         border: 2px;
+         background-color: white;
+         border-radius: 17px;
+         width: 50%;
+         padding: 10px;
+         box-shadow: 0 5px 15px rgb(241, 233, 233);
+         padding-left: 35px;
+         margin: 25px;
+         height: 100%;
+      }
+
+      input,
+      textarea {
+         width: 95%;
+         padding: 15px;
+         margin-top: 7px;
+         border-radius: 7px;
+         border: 3px solid #e9e5ef;
+
+
+
+      }
+
+      label {
+         color: #6d28d9;
+         font-size: 20px;
+         font-weight: bold;
+      }
+
+      .blockbar {
+         display: flex;
+         justify-content: space-between;
+         gap: 30px;
+         width: 100%;
+         align-items: center;
+
+
+      }
+
+      .lastcard {
+         background-color: white;
+         padding: 30px 0px 50px 30px;
+
+
+         box-shadow: 0 5px 15px rgb(241, 233, 233);
+         border-radius: 17px;
+         gap: 100px;
+      }
+
+      .program {
+         height: 100%;
+         display: flex;
+         flex-direction: column;
+         gap: 3rem;
+         width: 50%;
+
+      }
+
+      .topic6 {
+         color: #6d28d9;
+      }
+
+      .sm {
+         margin: 30px 0px;
+      }
+
+      footer {
+         text-align: center;
+         padding: 50px 0px;
+         background-color: #1f2937;
+         color: white;
+
+      }
+
+      a {
+         text-decoration: none;
+         color: #fff;
+      }
+
+      .text2 {
+         font-size: 22px;
+         font-weight: bolder;
+         padding-bottom: 20px;
+      }
+
+      .imgbaby {
+         border-radius: 50px;
+         margin-bottom: -90px;
+         width: 100px;
+         height: 100px;
+
+      }
+
+      @media (max-width:643px) {
+
+
+
+         nav {
+            display: none;
+         }
+
+         .firstSection {
+            display: flex;
+            flex-direction: column;
+
+         }
+
+         .secondSection {
+            flex-direction: column;
+            width: 100%;
+
+
+         }
+
+         .thirdSection1 {
+            flex-direction: column !important;
+            width: 100%;
+         }
+
+         .fourthSection {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+         }
+
+         .blockbar {
+            flex-direction: column;
+
+            width: 100%;
+         }
+
+         form {
+            width: 100%;
+         }
+
+         .program {
+            /* margin-top: 50px; */
+            width: 100%
+         }
+
+         .lastcard {
+            width: 100%;
+         }
+
+         footer {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+         }
+
+      }
