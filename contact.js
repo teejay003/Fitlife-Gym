@@ -1,30 +1,32 @@
- // contact.js
-
+// Backend URL (adjust port if needed)
 const API_BASE_URL =
-  window.location.hostname === "localhost"
-    ? "http://localhost:3001"
-    : "https://api.myapp.com"; // replace with your backend domain
+  window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
+    ? "http://localhost:3001" // make sure this matches your backend
+    : "https://api.myapp.com"; // replace with deployed backend later
 
-const contactForm = document.getElementById("contactForm");
+// Get the form and response div
+const contactForm = document.getElementById("contact-form");
 const formResponse = document.getElementById("formResponse");
 
 if (contactForm) {
   contactForm.addEventListener("submit", async (e) => {
     e.preventDefault();
 
-    const fullName = document.getElementById("fullName").value.trim();
+    // Collect input values
+    const full_name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
     const phone = document.getElementById("phone").value.trim();
     const interest = document.getElementById("interest").value.trim();
     const message = document.getElementById("message").value.trim();
 
-    formResponse.innerText = "Submitting...";
+    // Show loading message
+    formResponse.innerText = "Submitting... Please wait.";
 
     try {
       const res = await fetch(`${API_BASE_URL}/contact`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ fullName, email, phone, interest, message }),
+        body: JSON.stringify({ full_name, email, phone, interest, message }),
       });
 
       const data = await res.json();
