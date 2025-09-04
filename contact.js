@@ -1,8 +1,8 @@
 // Backend URL (adjust port if needed)
 const API_BASE_URL =
   window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
-    ? "http://localhost:3001" // make sure this matches your backend
-    : "https://api.myapp.com"; // replace with deployed backend later
+    ? "http://localhost:3001" // for local dev practice
+    : "https://9e6285eeee1f.ngrok-free.app "; // for production
 
 // Get the form and response div
 const contactForm = document.getElementById("contact-form");
